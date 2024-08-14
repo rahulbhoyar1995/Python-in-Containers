@@ -1,0 +1,3 @@
+If you want to push the image to docker hub, the image name should be in below format :
+
+{username_on_dockerhub}/{image_name}:{version}
