@@ -1,4 +1,4 @@
-# Docker Compose Application
+# Project 2 - With Docker Compose Application
 
 To run your FastAPI app with multiple instances using Docker Compose, you need to set up a Dockerfile to containerize the app and a `docker-compose.yml` file to define how the app should scale.
 
