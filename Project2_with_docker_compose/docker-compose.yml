@@ -1,0 +1,15 @@
+services:
+  fastapi:
+    build: .
+    ports:
+      - "8000"  # Dynamically map container port 8000 to a random host port
+    deploy:
+      replicas: 3  # Scaling to 3 instances
+    networks:
+      - fastapi-network
+    environment:
+      - UVICORN_CMD=uvicorn main:app --host 0.0.0.0 --port 8000
+
+networks:
+  fastapi-network:
+    driver: bridge
