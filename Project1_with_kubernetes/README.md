@@ -1,4 +1,4 @@
-# Project 1 - With Kunernetes Tech Stack
+# Project 1 - With Kubernetes Tech Stack
 
 When deploying **multiple FastAPI servers** behind a **load balancer**, the architecture ensures high availability, scalability, and fault tolerance. I'll guide you through creating a project where multiple FastAPI servers are deployed using **Docker** and managed with **Kubernetes**, demonstrating how requests are balanced across servers.
 
