@@ -172,4 +172,3 @@ The `curl` command should return a response like this:
 
 Where `<hostname>` is the name of the server instance inside the container, which will be unique for each container (e.g., `fastapi-1`, `fastapi-2`, `fastapi-3`).
 
-Let me know if you need further help!
